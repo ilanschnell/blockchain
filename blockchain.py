@@ -3,7 +3,6 @@
 import json
 import hashlib
 from time import time
-from pprint import pprint
 from urllib.parse import urlparse
 
 import requests
@@ -124,16 +123,6 @@ class BlockChain(object):
         assert isinstance(block, dict), block
         block_data = json.dumps(block, sort_keys=True).encode()
         return hashlib.sha256(block_data).hexdigest()
-
-
-def test_blockchain():
-    bc = BlockChain()
-    for _ in range(2):
-        bc.new_block()
-    pprint(bc.chain)
-    for i, block in enumerate(bc.chain):
-        print(i, bc.hash(block))
-    print(bc.valid_chain(bc.chain))
 
 
 # Instantiate the Node
