@@ -51,4 +51,4 @@ The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
 
 ## Consensus (longest chain wins):
 
-<img src="./chain.svg" width="204" height="542" />
+<img src="./chain.svg" width="153" height="406" />
