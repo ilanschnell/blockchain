@@ -33,3 +33,4 @@ Each node has a copy of the ledger:
 <img src="./decentralized-network.png" width="608" height="546" />
 
 
+<img src="./chain.svg" />
