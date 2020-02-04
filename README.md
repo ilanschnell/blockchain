@@ -3,7 +3,7 @@ The Blockchain
 
 Remarkable technology:
   - openness (anyone can see the chain)
-  - distributed
+  - distributed and decentral
   - permissionless (no access control)
   - resistant to modification of the data
   - secure
@@ -24,7 +24,12 @@ Ledger:
     +-----------------+       +-----------------+       +-----------------+
     | Transactions:   |       | Transactions:   |       | Transactions:   |
     | - A -> B $73.87 |       | - B -> C $12.55 |       | - A -> D  $3.00 |
-    | - A -> B  $3.56 |       |                 |       | - C -> C  $2.50 |
-    +-----------------+       +-----------------+       +-----------------+
+    | - A -> B  $3.56 |       +-----------------+       | - C -> C  $2.50 |
+    +-----------------+                                 | - B -> C $17.24 |
+                                                        +-----------------+
+
+Each node has a copy of the ledger:
+
+<img src="./decentralized-network.png" width="608" height="546" />
 
 
