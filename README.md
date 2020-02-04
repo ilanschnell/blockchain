@@ -41,6 +41,14 @@ The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
 <img src="./decentralized-network.png" width="608" height="546" />
 
 
+## Timeline of a transaction:
+  - a transaction is agreed upon
+  - transaction is broadcasted
+  - nodes verify transaction
+  - some node will "mine" a block (which links to all outstanding transactions)
+  - block is now part of the chain
+
+
 ## Consensus (longest chain wins):
 
 <img src="./chain.svg" width="204" height="542" />
