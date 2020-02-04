@@ -31,7 +31,7 @@ The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
     +-----------------+       +-----------------+       +-----------------+
     | Transactions:   |       | Transactions:   |       | Transactions:   |
     | - A -> B $73.87 |       | - B -> C $12.55 |       | - A -> D  $3.00 |
-    | - A -> B  $3.56 |       +-----------------+       | - C -> C  $2.50 |
+    | - A -> C  $3.56 |       +-----------------+       | - C -> C  $2.50 |
     +-----------------+                                 | - B -> C $17.24 |
                                                         +-----------------+
 
