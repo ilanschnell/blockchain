@@ -38,7 +38,7 @@ The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
 
 ## Each node has a copy of the ledger:
 
-<img src="./decentralized-network.png" width="608" height="546" />
+<img src="./decentralized-network.png" width="304" height="273" />
 
 
 ## Timeline of a transaction:
