@@ -28,9 +28,12 @@ Ledger:
     +-----------------+                                 | - B -> C $17.24 |
                                                         +-----------------+
 
+
 Each node has a copy of the ledger:
 
 <img src="./decentralized-network.png" width="608" height="546" />
 
 
-<img src="./chain.svg" rotate="90" />
+Consensus (longest chain wins):
+
+<img src="./chain.svg" width="204" height="542" />
