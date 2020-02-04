@@ -11,7 +11,7 @@
 
 ### blockchain = open, distributed, database
   - in case of cryptocurrencies the data are monetary transactions
-  - a private blockchain is just (an overly complicated) database
+  - a private blockchain is just (an overly sophisticated) database
 
 
 The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
