@@ -6,6 +6,7 @@
   - distributed and decentral
   - permissionless (no access control)
   - resistant to modification of the data
+  - redundant
   - secure
 
 
