@@ -1,11 +1,18 @@
 # The Blockchain
 
+
 ## Remarkable technology:
   - openness (anyone can see the chain)
   - distributed and decentral
   - permissionless (no access control)
   - resistant to modification of the data
   - secure
+
+
+### blockchain = open, distributed, database
+  - in case of cryptocurrencies the data are monetary transactions
+  - a private blockchain is just (an overly complicated) database
+
 
 The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
 
