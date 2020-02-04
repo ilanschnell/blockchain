@@ -14,8 +14,17 @@ Ledger:
 
     +-----------------+       +-----------------+       +-----------------+
     | Genesis Block   |       | Block 1         |       | Block 2         |
-    | - timestamp     | \     | - timestamp     | \     | - timestamp     |
-    | - Merkle hash   |  \    | - Merkle hash   |  \    | - Merkle hash   |
-    | - previous hash |   --> | - previous hash |   --> | - previous hash |
+    | - previous hash | ----> | - previous hash | ----> | - previous hash |
+    | - timestamp     |       | - timestamp     |       | - timestamp     |
+    | - nonce         |       | - nonce         |       | - nonce         |
+    | - Merkle hash   |       | - Merkle hash   |       | - Merkle hash   |
     +-----------------+       +-----------------+       +-----------------+
+            ^                         ^                         ^
+            |                         |                         |
+    +-----------------+       +-----------------+       +-----------------+
+    | Transactions:   |       | Transactions:   |       | Transactions:   |
+    | - A -> B $73.87 |       | - B -> C $12.55 |       | - A -> D  $3.00 |
+    | - A -> B  $3.56 |       |                 |       | - C -> C  $2.50 |
+    +-----------------+       +-----------------+       +-----------------+
+
 
