@@ -1,7 +1,6 @@
-The Blockchain
-==============
+# The Blockchain
 
-# Remarkable technology:
+## Remarkable technology:
   - openness (anyone can see the chain)
   - distributed and decentral
   - permissionless (no access control)
@@ -10,7 +9,7 @@ The Blockchain
 
 The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
 
-# Ledger:
+## Ledger:
 
     +-----------------+       +-----------------+       +-----------------+
     | Genesis Block   |       | Block 1         |       | Block 2         |
@@ -29,11 +28,11 @@ The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
                                                         +-----------------+
 
 
-# Each node has a copy of the ledger:
+## Each node has a copy of the ledger:
 
 <img src="./decentralized-network.png" width="608" height="546" />
 
 
-# Consensus (longest chain wins):
+## Consensus (longest chain wins):
 
 <img src="./chain.svg" width="204" height="542" />
