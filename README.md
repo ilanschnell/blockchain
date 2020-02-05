@@ -23,7 +23,7 @@ The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
     | Genesis Block   |       | Block 1         |       | Block 2         |
     | - previous hash | ----> | - previous hash | ----> | - previous hash |
     | - timestamp     |       | - timestamp     |       | - timestamp     |
-    | - nonce         |       | - nonce         |       | - nonce         |
+    | - proof of work |       | - proof of work |       | - proof of work |
     | - Merkle hash   |       | - Merkle hash   |       | - Merkle hash   |
     +-----------------+       +-----------------+       +-----------------+
             ^                         ^                         ^
