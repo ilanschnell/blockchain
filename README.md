@@ -21,7 +21,7 @@ The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
 
     +-----------------+       +-----------------+       +-----------------+
     | Genesis Block   |       | Block 1         |       | Block 2         |
-    | - previous hash | ----> | - previous hash | ----> | - previous hash |
+    | - 000000000000  | ----> | - previous hash | ----> | - previous hash |
     | - timestamp     |       | - timestamp     |       | - timestamp     |
     | - proof of work |       | - proof of work |       | - proof of work |
     | - Merkle hash   |       | - Merkle hash   |       | - Merkle hash   |
@@ -45,7 +45,7 @@ The first blockchain was conceptualized by Satoshi Nakamoto in 2008.
   - a transaction is agreed upon
   - transaction is broadcasted
   - nodes verify transaction
-  - some node will "mine" a block (which links to all outstanding transactions)
+  - some node will "mine" a block (which links to outstanding transactions)
   - block is now part of the chain
 
 
